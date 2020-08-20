@@ -7,7 +7,7 @@ import google from '../../assets/img/icons/common/google.svg';
 class Signup extends Component {
   render() {
     return (
-            <div classNameName="bg-default">
+        <div className="bg-default">
         {/* Navbar */}
             <nav id="navbar-main" className="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
               <div className="container">

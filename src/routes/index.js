@@ -9,6 +9,7 @@ import Signup from '../components/Signup';
 import Upgrade from '../components/Upgrade';
 import Table from '../components/Table';
 import Map from '../components/Map';
+import Sidebar from '../components/Sidebar';
 
 export default function index() {
   return (
@@ -22,6 +23,7 @@ export default function index() {
             <Route path="/upgrade" exact component={Upgrade} />
             <Route path="/tables" exact component={Table} />
             <Route path="/map" exact component={Map} />
+            <Route path="/sidebar" exact component={Sidebar} />
         </Switch>
   );
 }
